@@ -20,7 +20,7 @@
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,15 +31,16 @@ body {
 
 body p {
     font-size: 18px;
-    font-weight: 400;
-    color: var(--very-dark-blue-line);
+    font-weight: 300;
+    color: var(--soft-blue);
+    line-height: 30px;
 }
 
 .container {
-    min-height: 100vh;
+    max-height: 70%;
     max-width: 90%;
-    margin: 10% auto;
-    padding: 30px;
+    margin: 5% auto;
+    padding: 20px;
     background-color: var(--very-dark-blue-bg-card);
     border-radius: 10px;
 }
@@ -56,10 +57,15 @@ body p {
     font-weight: 600;
 }
 
+.container h2:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
 .results {
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
     justify-content: space-between;
 }
 
@@ -73,13 +79,21 @@ body p {
     margin-right: 6px;
 }
 
+.results span {
+    color: var(--cyan);
+}
+
 .creator {
     display: flex;
+    border-top: 1px solid var(--very-dark-blue-line);
+    padding-top: 10px;
 }
 
 .creator img {
     width: 40px;
     margin-right: 10px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
 }
 
 .creator p {
@@ -87,11 +101,20 @@ body p {
     align-items: center;
 }
 
+.creator span {
+    color: var(--white);
+}
+
+.creator span:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: 10px;
+    margin: 20px 0;
+    color: var(--soft-blue);
 }
 
 .attribution a {
