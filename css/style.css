@@ -36,7 +36,7 @@ body p {
 }
 
 .container {
-    max-height: 100vh;
+    min-height: 100vh;
     max-width: 90%;
     margin: 10% auto;
     padding: 30px;
@@ -71,6 +71,20 @@ body p {
 .results img {
     width: 15px;
     margin-right: 6px;
+}
+
+.creator {
+    display: flex;
+}
+
+.creator img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.creator p {
+    display: flex;
+    align-items: center;
 }
 
 .attribution {
