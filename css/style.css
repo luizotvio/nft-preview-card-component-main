@@ -31,6 +31,7 @@ body {
 
 body p {
     font-size: 18px;
+    font-weight: 400;
     color: var(--very-dark-blue-line);
 }
 
@@ -47,6 +48,29 @@ body p {
     width: 100%;
     border-radius: 10px;
     
+}
+
+.container h2 {
+    color: var(--white);
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.results p {
+    display: flex;
+    align-items: center;
+}
+
+.results img {
+    width: 15px;
+    margin-right: 6px;
 }
 
 .attribution {
