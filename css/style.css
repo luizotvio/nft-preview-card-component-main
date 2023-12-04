@@ -37,7 +37,7 @@ body p {
 }
 
 .container {
-    max-height: 70%;
+    max-height: auto;
     max-width: 90%;
     margin: 5% auto;
     padding: 20px;
@@ -81,6 +81,7 @@ body p {
 
 .results span {
     color: var(--cyan);
+    font-weight: 600;
 }
 
 .creator {
